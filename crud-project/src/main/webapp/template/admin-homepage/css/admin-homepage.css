@@ -1,0 +1,188 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.line::after {
+    content: "";
+    /* width: 100%; */
+    height: 1px;
+    width: 0px;
+    display: block;
+    background: #FF725E;
+    transition: all 0.5s;
+}
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+header .navbar .navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #FF725E;
+}
+
+header .navbar .nav-item {
+    font-size: 1.05rem;
+}
+
+
+/* admin menu */
+
+.admin-content .admin-menu .admin-menu__line-decorator {
+    width: 5px;
+    height: 100%;
+    background-color: #FF725E;
+    border-radius: 2px;
+}
+
+.admin-content .admin-menu .admin-menu__content .nav {
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+}
+
+.admin-content .admin-menu .admin-menu__content .nav .nav-item {
+    margin: 5px 0;
+}
+
+.admin-content .admin-menu .admin-menu__content .nav .nav-item .nav-link {
+    padding: 10px;
+    font-size: 1.15rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ .admin-menu__content .nav .active a {
+    color: white;
+    background-color: #FF725E;
+    border-radius: 30px;
+}
+
+
+/* admin content  */
+
+.admin-content .admin-information .container .row {
+    margin: 5px 0;
+}
+
+.admin-content .admin-information .container .row .col div {
+    width: 100%;
+    height: 120px;
+    background-color: #FF725E;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 3px 0px 10px 0px #b75b5b;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* fomr search  */
+
+.admin-information .admin-information__tool-search .form-search .input-search {
+    width: 260px;
+    height: 40px;
+    padding: 0 15px;
+    outline: none;
+    border: 2px solid #8a7472;
+    border-radius: 18px;
+}
+
+.admin-information .admin-information__tool-search .form-search button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #FF725E;
+    margin-left: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+
+/* tool */
+
+.admin-information .admin-information__tool-edit a {
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
+
+
+/* form - edit */
+
+.admin-information .form-edit .row .form-item .form-item-data input {
+    width: 600px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid #FF725E;
+    outline: none;
+}
+
+.admin-information .form-edit .row .form-item .form-item-data input:focus {
+    box-shadow: 1px 1px 2px 1px #FF725E;
+    border-bottom-color: #FF725E;
+}
+
+.admin-information .form-edit .row .form-item .form-item-name {}
+
+
+/* form edit  */
+
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 200px;
+}
+
+.admin-information .form__button button {
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color: #FF725E;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.admin-information .button-back a {
+    text-decoration: none;
+    color: #FF725E;
+}
+
+
+/* footer */
+
+section footer {
+     width: 100%;
+    text-align: center;
+    display: flex;
+
+
+}
+
+footer .footer__content-copyright {
+    width: 75px;
+}
+
+footer .footer__content span {
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,101 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.line::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    background: #FF725E;
+    transition: all 0.5s;
+    margin: 10px;
+}
+
+
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: #FF725E;
+}
+
+header .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #FF725E;
+}
+
+header .navbar .collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .collapse .logo-header {
+    display: block;
+    max-height: 64px;
+    max-width: 300px;
+}
+
+header .navbar a {
+    color: white;
+}
+
+header .navbar a:hover {
+    color: white;
+}
+
+.font-decorator .event {
+    margin-top: 30px;
+}
+
+.font-decorator {
+    margin: 30px 0px;
+    color: #FF725E;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.science-technology .science-technology__content .row .col {
+    width: 100%;
+    background-color: #ffe3e0;
+    padding: 10px;
+    border-bottom: solid 6px #FF725E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.science-technology .science-technology__content .row .col span {
+    font-size: 2rem;
+    color: #444;
+    font-weight: 600;
+}
+
+
+/* footer  */
+
+footer {
+    background-color: #FF725E;
+    padding: 20px 0;
+    color: aliceblue;
+}
+
+footer .footer .col-4 p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+footer .footer .col-4 .logo-haui {
+    width: 85px;
+    margin: 30px 0;
+}
